@@ -1,5 +1,7 @@
-CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                                     NAMES
-9ad93cb2bb12   nginx     "/docker-entrypoint.…"   20 minutes ago   Up 20 minutes   0.0.0.0:8093->80/tcp, [::]:8093->80/tcp   nginx3
-4767d5b0eac3   nginx     "/docker-entrypoint.…"   21 minutes ago   Up 21 minutes   0.0.0.0:8092->80/tcp, [::]:8092->80/tcp   nginx2
-6ac59db6882a   nginx     "/docker-entrypoint.…"   21 minutes ago   Up 21 minutes   0.0.0.0:8091->80/tcp, [::]:8091->80/tcp   nginx1
-333847288b27   nginx     "/docker-entrypoint.…"   33 minutes ago   Up 33 minutes   0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   web
+CONTAINER ID   IMAGE              COMMAND                  CREATED          STATUS                    PORTS                                     NAMES
+51bf7e6a98e5   nginx              "/docker-entrypoint.…"   25 minutes ago   Up 25 minutes             0.0.0.0:8093->80/tcp, [::]:8093->80/tcp   nginx3
+c588343ea811   nginx              "/docker-entrypoint.…"   25 minutes ago   Up 25 minutes             0.0.0.0:8092->80/tcp, [::]:8092->80/tcp   nginx2
+1852714a91c5   nginx              "/docker-entrypoint.…"   25 minutes ago   Up 25 minutes             0.0.0.0:8091->80/tcp, [::]:8091->80/tcp   nginx1
+316ad51c57c9   nginx              "/docker-entrypoint.…"   43 minutes ago   Up 43 minutes             0.0.0.0:8080->80/tcp, [::]:8080->80/tcp   web
+9cf893d38d82   hankovillage-api   "uvicorn app.main:ap…"   7 days ago       Up 51 minutes             127.0.0.1:8000->8000/tcp                  hankovillage-api-1
+fef619593faf   postgres:16        "docker-entrypoint.s…"   11 days ago      Up 51 minutes (healthy)   5432/tcp                                  hankovillage-db-1

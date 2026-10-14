@@ -1,37 +1,33 @@
-# 5주차 - Docker
-## curl 확인 결과
-```
-[localhost:8091]
+# 5주차-Docker
+nginx1
 HTTP/1.1 200 OK
 Server: nginx/1.31.6
-Date: Wed, 30 Sep 2026 03:32:30 GMT
+Date: Wed, 14 Oct 2026 01:53:40 GMT
 Content-Type: text/html
-Content-Length: 28
-Last-Modified: Wed, 30 Sep 2026 03:13:51 GMT
+Content-Length: 36
+Last-Modified: Wed, 14 Oct 2026 01:28:37 GMT
 Connection: keep-alive
-ETag: "6abc7e6f-1c"
+ETag: "6acedac5-24"
 Accept-Ranges: bytes
 
-[localhost:8092]
+nginx2
 HTTP/1.1 200 OK
 Server: nginx/1.31.6
-Date: Wed, 30 Sep 2026 03:32:30 GMT
+Date: Wed, 14 Oct 2026 01:54:55 GMT
 Content-Type: text/html
-Content-Length: 28
-Last-Modified: Wed, 30 Sep 2026 03:15:23 GMT
+Content-Length: 36
+Last-Modified: Wed, 14 Oct 2026 01:29:25 GMT
 Connection: keep-alive
-ETag: "6abc7ecb-1c"
+ETag: "6acedaf5-24"
 Accept-Ranges: bytes
 
-[localhost:8093]
+nginx3
 HTTP/1.1 200 OK
 Server: nginx/1.31.6
-Date: Wed, 30 Sep 2026 03:32:30 GMT
+Date: Wed, 14 Oct 2026 01:55:08 GMT
 Content-Type: text/html
-Content-Length: 28
-Last-Modified: Wed, 30 Sep 2026 03:16:38 GMT
+Content-Length: 36
+Last-Modified: Wed, 14 Oct 2026 01:29:38 GMT
 Connection: keep-alive
-ETag: "6abc7f16-1c"
+ETag: "6acedb02-24"
 Accept-Ranges: bytes
-
-```
