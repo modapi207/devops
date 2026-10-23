@@ -42,7 +42,7 @@ python3 -m http.server 8080
 - `test/`: `diary.txt`(heredoc), `server.log`·`errors.txt`(grep), `var.sh`(변수), `greet.sh`(인자), `check.sh`(파일/디렉터리 조건문)
 - `site/index.html`: `python3 -m http.server 8080`으로 띄운 웹 페이지
 - [완료] 로그 기록을 남기고 해결 후 Merge
-- Conflict 실습: main은 `로그기록`, `fix/message`는 `[완료] 로그 기록`으로 같은 줄을 고쳐 PR #9에서 충돌 발생 확인
+- Conflict 실습: main은 `로그기록`, `fix/message`는 `[완료] 로그 기록`으로 같은 줄을 고쳐 PR #9에서 충돌 → `[완료] 로그 기록`을 남기고 해결 후 Merge
 
 ## 트러블슈팅
 
