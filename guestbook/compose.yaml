@@ -27,6 +27,12 @@ services:
       timeout: 3s
       retries: 5
     restart: unless-stopped
+    develop:
+      watch:
+        - action: rebuild
+          path: ./app.py
+        - action: rebuild
+          path: ./templates
 
   redis:
     image: redis:7-alpine
